@@ -1,0 +1,37 @@
+Vorbereitung: Chrome (admin), Inkognito (user), Handy (QR)
+
+1) Einloggen 0000000000 / admin
+     1 Tag erklären
+     Farben
+     Auswahl Essen
+     Wochen wählen
+
+2) Dashboard
+     Grafik der Anmeldungen
+     Unterhalb die Tage (manuelle Schüleranmeldung)
+
+3) Gerichte
+     neues Gericht anlegen
+     Tageszeiten
+
+4) Benutzer
+    - Klasse anlegen 
+    - User anlegen (1111111111 / 123123123)
+    - Klasse löschen
+
+5) Inkognito
+     User anmelden (1111111111 / 123123123)
+     neues Passwort (123123123)
+     Anmeldung zeigen
+
+6) User als Admin für heute anmelden
+
+6) QR Code zeigen (9:30 bis 14:00)
+
+
+
+8) Zeigen das User angemeldet is
+
+9) QR Code mit Handy generieren
+
+10) Im Admin Panel anscannen (2x)

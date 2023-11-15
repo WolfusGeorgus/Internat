@@ -1,0 +1,146 @@
+  .card {
+    border-color: rgb(70, 68, 68);
+  }
+
+  .card-header,
+  .card-footer {
+    border-color: rgb(70, 68, 68);
+    background-color: rgba(62, 61, 68, 0.283);
+    color: #ffc107;
+  }
+
+  #normalheader{
+    background-color: rgba(52, 53, 65, 0.9);
+
+  }
+  #todayheader{
+    background-color: #ffc107;
+    color: rgba(62, 61, 68, 0.813);
+  }
+
+  #toolateheader{
+    background-color: rgba(68, 70, 84, 0.8);
+  }
+  #emptyheader{
+    background-color: rgba(68, 70, 84, 0.8);
+  }
+
+  .blabla{
+    background-color:  rgb(214, 212, 61);
+  }
+
+  .card-title{
+    font-size: 13px!important;
+    margin-left: -5px!important;
+    margin-top: -5px;
+  }
+
+  #past{
+    background-color: rgb(128, 127, 129);
+    border-color:rgb(128, 127, 129);
+  }
+
+  /* Style for the parent div */
+  .card-body {
+    position: relative;
+    height: 80px;
+    /* Required for positioning the button */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* To push the h3 and p to the top and button to the bottom */
+    align-items: flex-start;
+    /* Align h3 and p to the left */
+  }
+
+  /* Style for the button */
+  [type=menubutton]:not(#drop) {
+    /* Position it absolutely within the parent */
+    top: 10%;
+    width: 45%;
+    height: 30%;
+    /* Margin from the bottom */
+    right: 5px;
+    /* Margin from the right */
+    opacity: 0%;
+  }
+
+  /* Style for the button */
+  #dropi {
+    /* Position it absolutely within the parent */
+    top: 0%;
+    width: 45%;
+    height: 30%;
+    /* Margin from the bottom */
+    margin-left: -10px!important;
+    /* Margin from the right */
+    opacity: 100%;
+    position: relative!important;
+  }
+
+  .dropdown-menu{
+    overflow-y: visible;
+    position: absolute;
+    z-index: 9999!important; /* Adjust this value as needed */
+    max-height: 280px;
+    overflow-y: auto;
+  }
+
+  .dropdown-custom{
+    overflow-y: visible;
+    position: absolute;
+    z-index: 9999!important; /* Adjust this value as needed */
+    max-height: 280px;
+    overflow-y: auto;
+  }
+
+  .dropdown-item {
+    z-index: 9999!important; /* Adjust this value as needed */
+    position: relative;
+    overflow-y: visible;
+  }
+
+  .custom-btn-size {
+    font-size: 13px;
+    margin-left: -5px;
+    margin-top: -20px;
+    font-weight: bold;
+    border: none;
+    /* color: #ffc107; */
+  }
+
+  hr {
+    margin: 0rem;
+    border-color:rgb(128, 127, 129);
+    opacity: 1;
+  }
+
+  .card-text {
+    padding-bottom: 0px;
+    font-size: 13px;
+    display: block;
+    text-align: left;
+  }
+
+  .card-title {
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .swiper-wrapper {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .swiper-slide{
+    width: fit-content;
+   }
